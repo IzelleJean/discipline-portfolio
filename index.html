@@ -1,92 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Izelle Pama | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="shortuct icon" type="x-icon" href="pink.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zel's Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 
-  <!-- Navigation Bar -->
-  <header>
-    <div class="logo">IZELLE PAMA</div>
-    <nav>
-      <a href="#home">HOME</a>
-      <a href="#about">ABOUT ME</a>
-      <a href="#accomplishment">ACCOMPLISHMENT</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-  </header>
-  <section id="home" class="hero">
-  <h1>Welcome To My Portfolio!</h1>
-  <a href="photos/izelle-resume.pdf" download target="_blank" class="button">Resume</a>
+    <div>
 
-  <div class="home-about">
-    <img src="photos/profile.jpg" alt="My Photo" class="profile-pic" />
-    <p>Hi! I'm a Computer Engineering student at NCST. I love tech, design, and building things that help people.</p>
+        <nav class="navbar">
+            <div class="logo" id="#">Izelle Portfolio </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#others">Others</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+
+            <!-- Hero Section -->
+            <header class="hero" id="hero">
+                <div class="hero-content">
+                    <h1>Welcome to My Portfolio!</h1>
+                    <p>I'm Izelle, a Computer Engineering student and content creator. Join me on my journey of creativity and self-growth!</p>
+                    <a href="#" id="resumeBtn" class="button">Resume</a>
+
+
+                </div>
+            </header>
+
+         <div id="greet" class="welcome-greet">
+          Welcome to my website! Have a wonderful day!
+         </div>
+
+            
+    
+            <!-- About Section -->
+            <section id="about">
+  <div class="about-container">
+    
+    <!-- Profile Image -->
+    <div class="profile-image">
+      <img src="files/profilepic.jpeg" alt="Profile Picture">
+    </div>
+
+    <!-- About Me Text -->
+    <div class="about-text">
+        <h1>About Me</h1>
+      <p>
+        Hi, I'm Izelle Pama — a first-year Computer Engineering student with a deep passion for technology and innovation. I'm driven by the desire to create meaningful projects that make a difference through the power of code.
+
+       As I begin my journey in this field, I’m eager to learn new programming languages, build real-world applications, and challenge myself through creative problem-solving. I believe that even the simplest line of code can spark something powerful.
+
+      My goal is to develop tools, games, and systems that can help others and improve lives. I'm especially interested in exploring web development, software engineering, and artificial intelligence as I grow in my career.
+      </p>
+    </div>
+
   </div>
-  </section>
 
+  <div class="about-info">
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <h1>ABOUT ME</h1>
-    <div class="about-container">
-      <img src="photos/myphoto.jpg" alt="Izelle's Photo" class="profile-image">
-      <div class="about-text">
-        <p><b>Hi, I'm Izelle Pama</b>, a first-year Computer Engineering student. I'm passionate about technology and deeply inspired to create innovative and meaningful projects through the power of coding. As I begin this journey, I’m excited to learn new programming languages, build real-world applications, and challenge myself with creative problem-solving.</p>
+    <div class="info-box">
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Coding and problem-solving</li>
+        <li>Building small projects and games</li>
+        <li>Learning new programming languages</li>
+        <li>Exploring web development trends</li>
+      </ul>
+    </div>
 
-        <p>I believe that even the simplest lines of code can make a big impact, and I hope to use my skills to develop tools, games, or systems that can help others and make life better. I'm also eager to explore fields like web development, software engineering, and AI as I grow in my career.</p>
+    <div class="info-box">
+      <h3>Skills</h3>
+      <ul>
+        <li>C++ Programming – logic building & problem-solving</li>
+        <li>HTML & CSS – creating and styling webpages</li>
+        <li>JavaScript (Basics) – adding interactivity</li>
+        <li>Video Editing & Digital Tools</li>
+      </ul>
+    </div>
 
-        <p>My goal is not just to learn, but to create—to turn ideas into reality through technology and become a confident, capable engineer who can contribute to the world in a meaningful way.</p>
-      </div>
+    <div class="info-box">
+      <h3>Likes</h3>
+      <ul>
+        <li>Exploring Computer Engineering topics</li>
+        <li>Learning new programming languages</li>
+        <li>Building tech projects & mini games</li>
+        <li>Innovations in technology & AI</li>
+      </ul>
     </div>
-    <section id="about" class="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-box coding">
-        <h3>Coding & Web Development</h3>
-        <ul>
-          <li><strong>C++</strong> – Basic to intermediate logic building and game development</li>
-          <li><strong>HTML & CSS</strong> – Creating and styling webpages</li>
-          <li><strong>JavaScript (Basics)</strong> – Simple interactivity and functions</li>
-        </ul>
-      </div>
-      <div class="skill-box productivity">
-        <h3>Productivity</h3>
-        <ul>
-          <li><strong>Organization</strong> – Keeping tasks, files, and goals structured</li>
-          <li><strong>Time Management</strong> – Balancing schoolwork, projects, and personal time effectively</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  </section>
 
-<section id="accomplishment" class="accomplishment">
-  <h2>ACCOMPLISHMENT</h2>
-  <div class="accomplishments-grid">
-    <div class="accomplishment-item">
-      <h3>3rd Place Winner in First-Year Game Builder Competition</h3>
-      <p>Using C++, with a self-developed Speed Typing Game, during the 1st semester of my PLD subject at NCST.</p>
-    </div>
-    <div class="accomplishment-item">
-      <h3>3rd Place Winner in First-Year Game Builder Competition</h3>
-      <p>Using C++, with a self-developed Speed Typing Game, during the 1st semester of my PLD subject at NCST.</p>
-    </div>
-    <div class="accomplishment-item">
-      <h3>Team Project Participant, Engineering Week Exhibit</h3>
-      <p>Worked with a group to develop a fully functional E-commerce website, applying basic front-end and back-end concepts and presenting it during the NCST exhibit.</p>
-    </div>
-    <div class="accomplishment-item">
-      <h3>3rd Place Winner in First-Year Game Builder Competition</h3>
-      <p>Using C++, with a self-developed Speed Typing Game, during the 1st semester of my PLD subject at NCST.</p>
-    </div>
   </div>
 </section>
 
 
+
+<!-- Others Section -->
+<section id="others">
+  <div class="others">
+    <h1>Others</h1>
+    <h2>Achievements & Projects</h2>
+    <p>Here are some of my notable achievements and projects that showcase my skills and interests.</p>
+   <section id="others" class="achievements-section">
+
+      <div class="achievement-box" onclick="expandBox(this)">
+        <h3>3rd Place Winner in First-Year Game Builder Competition</h3>
+        <div class="achievement-details">
+          <p>Using C++, with a self-developed Speed Typing Game, during the 1st semester of my PLD subject at NCST.</p>
+          <img src="files/games.png" alt="Game Builder Competition">
+          <img src="files/games1.png" alt="Game Builder Competition">
+          <p>
+               Using C++, we developed a game called "Keyboard Warrior" — a fast-paced speed typing game built during the 1st semester of our PLD subject at NCST. It's not just about typing quickly, but also thinking fast under pressure as you respond to in-game prompts that challenge your logic and reflexes.
+</p>
+
+        </div>
+      </div>
+
+      <div class="achievement-box" onclick="expandBox(this)">
+        <h3>Team Project Participant, Engineering Week Exhibit</h3>
+        <div class="achievement-details">
+          <p>Worked with a group to develop a fully functional E-commerce website, applying basic front-end and back-end concepts and presenting it during the NCST exhibit.</p>
+          <img src="files/hirayawebsite.png" alt="Engineering Week Exhibit">
+          <img src="files/hirayaproject.png" alt="Engineering Week Exhibit">
+          <p>
+               Worked with a group to develop a fully functional E-commerce website, applying basic front-end and back-end concepts and presenting it during the NCST exhibit. The website was designed to simulate a real online shopping. It featured user registration, product listings, a shopping cart, and a simple checkout process — giving us hands-on experience with web development and teamwork in a real-world scenario.
+</p>
+
+        </div>
+      </div>
+
+      <div class="achievement-box" onclick="expandBox(this)">
+        <h3>Participation in School Hackathon</h3>
+        <div class="achievement-details">
+          <p>E-commerce website projecty.</p>
+          <img src="files/hirayaproject1.png" alt="Hackathon Event">
+          <p>Participated in a school Hackathon event held on May 19 at NCST, where we worked as a team to develop a prototype of a mobile application focused on student productivity. Similar to our previous E-commerce website project, this challenge required us to apply both front-end and back-end skills in a limited timeframe. The event tested our
+
+        </div>
+      </div>
+
+      <div class="achievement-box" onclick="expandBox(this)">
+        <h3>Awards</h3>
+        <div class="achievement-details">
+          <p>Engineering Week OOP Final Project Award</p>
+          <img src="images/cpp_workshop.jpg" alt="C++ Workshop Certificate">
+        </div>
+      </div>
+
+</section>
+
+
+
+
+
+        
 <!-- Contact Section -->
 <section id="contact" class="contact">
   <div class="contact-content">
@@ -95,13 +166,13 @@
     <p>Reach out for amazing collaborations. I'm always excited to work on creative projects!</p>
     <div class="contact-links">
       <a href="mailto:izellepama@gmail.com" target="_blank" class="contact">
-        <img src="photos/email.png" alt="Email Icon" class="icon"> Email
+        <img src="files/email.icon.png" alt="Email Icon" class="icon"> Email
       </a>
       <a href="https://www.facebook.com/izellejean.pama." target="_blank" class="contact">
-        <img src="photos/facebook.png" alt="Facebook Icon" class="icon"> Facebook
+        <img src="files/facebook.icon.png" alt="Facebook Icon" class="icon"> Facebook
       </a>
       <a href="https://www.instagram.com/izelleaa/" target="_blank" class="contact">
-        <img src="photos/instagram.png" alt="Instagram Icon" class="icon"> Instagram
+        <img src="files/instagram.com.png" alt="Instagram Icon" class="icon"> Instagram
       </a>
     </div>
   </div>
@@ -113,9 +184,9 @@
   </div>
 </footer>
 
-
-  
-
+<script src="script.js"></script>
 
 </body>
 </html>
+
+
